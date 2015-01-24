@@ -7,7 +7,7 @@
 				'dsn'        => NULL,
 				'user'       => NULL,
 				'password'   => NULL,
-				'attributes' => []
+				'attributes' => [],
 				'classname'  => 'Propel\Runtime\Connection\ConnectionWrapper',
 			]
 		]
