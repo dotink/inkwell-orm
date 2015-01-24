@@ -1,0 +1,30 @@
+{
+	"name": "dotink/inkwell-orm",
+	"description": "An ORM for inKWell (Propel 2)",
+	"keywords": ["ORM", "database"],
+	"license": "AGPL-3.0",
+	"type": "opus-package",
+	"authors": [
+		{
+			"name": "Matthew J. Sahagian",
+			"email": "matt@imarc.net",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"propel/propel": "~2.0@dev"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"extra": {
+		"opus": {
+			"inkwell/framework": {
+				"plugin/bin" : "bin",
+				"plugin/config" : "config",
+				"plugin/include" : "include"
+			}
+		}
+	}
+}
