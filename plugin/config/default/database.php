@@ -8,7 +8,7 @@
 				'user'       => NULL,
 				'password'   => NULL,
 				'attributes' => [],
-				'classname'  => 'Propel\Runtime\Connection\ConnectionWrapper',
+				'classname'  => 'Propel\Runtime\Connection\ConnectionWrapper'
 			]
 		]
 	]);
